@@ -1,0 +1,8 @@
+{
+    "scripts": {
+        "build": "nuxt build --no-generate",
+        "dev": "cross-env NODE_ENV=development node -r esm server/dev.js",
+        "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+        "start": "cross-env NODE_ENV=production node -r esm server/index.js"
+    }
+}
